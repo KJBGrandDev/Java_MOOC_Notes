@@ -1,0 +1,7 @@
+Every programmer should know a bit about the structure of the memory used by a computer program. Each variable — let it be primitive or reference type — is saved in the memory. Each variable has size i.e. a defined number of bits (zeros and ones) it takes in the memory. The value of the variable is also represented in bits.
+
+The reference of the array object is actually information about the location of the data. By stating `array[0]` we're referring to the first element of the array. The statement `array[0]` can also be read "Go to the beginning of the array and move forward 0 times the size of the variable contained in the array — and return a chunk of data the size of the variable.
+
+The size of an int variable in java is 32 bits. One bit is reserved for the sign, so the largest possible number to present in int is 231-1. When you create an int array of 4 elements, 4 * 32 bits of memory is allocated to hold the integers. When you access `array[2]`, 32 bits are read starting from beginning of the array + 2 * 32 bits.
+
+Some programming languages try to make sure that the programmer doesn't go "in the wrong area". If java didn't cause the exception when we say `array[-1]`, we would find the data located just before the array in the memory of the program. In such case there wouldn't be anything preventing us from writing a program reading the whole memory reserved for the program.
