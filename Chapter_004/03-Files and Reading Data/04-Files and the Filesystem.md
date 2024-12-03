@@ -1,0 +1,5 @@
+**Files** are collections of data that live in computers. These files can contain, among other things, text, images, music, or any combination of these. The file format determines the content of the file as well as the program required to read the file. For example, PDF files are read with a program suited for reading PDF files, and music files are read with a program suited for reading music files. Each of these programs is made by humans, and the creators of these programs — i.e., programmers — also specify the file format as part of the work.
+
+Computers have several different programs for browsing files. These programs are specific to the operating system. All programs used for browsing files make use of the filesystem of the computer in one way or another.
+
+Our development environment provides us with the ability to browse the files of a project. In NetBeans you can take a look at all the files attached to a project by selecting the `Files` tab, which is found in the same place as the `Projects` tab. If the tab cannot be be found, it can be opened from the `Window` menu. Clicking the project to open it will reveal all its files.
